@@ -1,0 +1,8 @@
+clerk-supabase-demo.env
+.env
+.env.local
+.DS_Store
+node_modules/
+.next/
+*.tsbuildinfo
+npm-debug.log*
