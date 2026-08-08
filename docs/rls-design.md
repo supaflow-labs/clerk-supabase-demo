@@ -1,6 +1,6 @@
 # RLS design notes
 
-This demo intentionally follows the efficient RLS pattern used in Supaflow's recent authorization-closure refactor.
+This demo uses non-recursive authorization closures to keep membership checks efficient, explicit, and easy to audit.
 
 ## Avoiding recursion
 
