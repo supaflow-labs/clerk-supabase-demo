@@ -27,3 +27,4 @@ jobs:
       - run: npm ci --ignore-scripts
       - run: npm run lint
       - run: npm run typecheck
+      - run: node --test .github/tests/codex-review-gate.test.cjs
